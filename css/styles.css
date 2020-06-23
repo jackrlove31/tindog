@@ -1,0 +1,169 @@
+#title {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+p {
+  color: #8f8f8f;
+  text-align: center;
+}
+
+/* Navigation Bar */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+/* Buttons */
+.dl-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Phone Image */
+.dog-phone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Images */
+#features {
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 0 8px;
+}
+
+.feature-p {
+  padding: 3%;
+  font-weight: 600;
+}
+
+.feature-icon {
+  color: #FA8072;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #C71585;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #FA8072;
+  color: #fff;
+}
+
+.car-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* Press */
+#press {
+  background-color: #FA8072;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.press-img {
+  width: 15%;
+  margin-left: 20px;
+  margin: 20px 20px 50px;
+}
+
+/* Cards */
+#pricing {
+  padding: 100px;
+}
+
+.p-row {
+  padding: 3% 2%;
+}
+
+/* Call To Action */
+#cta {
+  background-color: #FA8072;
+  color: #fff;
+  text-align: center;
+  padding: 5% 15% 3%;
+}
+
+/* Footer */
+#footer {
+padding-top: 5%;
+background-color: #fff;
+text-align: center;
+}
+
+.social {
+  margin: 7px;
+}
+
+@media (max-width: 1028px) {
+  .dog-phone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .container-fluid {
+    padding-bottom: 2%;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
